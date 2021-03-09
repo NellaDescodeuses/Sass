@@ -1,16 +1,18 @@
-$rouge: #e80000;
-$violet: #7e1393;
-$rose: #eaabe0;
-$bleu: #79c9f2;
+//Les variables permet de stocker des informations comme coleur, police
+
+$myRed: #e80000;
+$myPurple: #7e1393;
+$myPink: #eaabe0;
+$myBlue: #79c9f2;
 h1{
-  color: $rouge;
+  color: $myRed;
 }
 h3{
-  color: $violet;
+  color: $myPurple;
 }
 h4{
-  color: $bleu;
+  color: $myBlue;
 }
 p {
-  color: $rose;
+  color: $myPink;
 }

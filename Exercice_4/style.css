@@ -8,4 +8,24 @@
   text-decoration: underline pink 1.5px;
 }
 
+.partie2 {
+  border: solid 2px red;
+  color: navy;
+  font-size: 1.5em;
+}
+.partie2 p {
+  text-decoration: underline pink 1.5px;
+}
+
+.fantome, .corps2 {
+  background-color: lightgray;
+  text-decoration: underline pink 1.5px;
+}
+
+.corps2 {
+  border: solid 2px red;
+  color: navy;
+  font-size: 1.5em;
+}
+
 /*# sourceMappingURL=style.css.map */

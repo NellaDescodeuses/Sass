@@ -1,11 +1,34 @@
+@mixin decoration {
+  border: solid 2px red;
+  color: navy;
+  font-size: 1.5em;
+}
 .exo{
   border: solid 2px red;
   color: navy;
   font-size: 1.5em;
 }
 .exo2{
-  //@extend ;applique les mêmes propriétés que .exo par extension.
+  //@extend ;on étend la class exo à la classe exo2.
   @extend .exo;
   text-decoration:underline pink 1.5px;
 
+}
+//2e maniere de faire avec la mixin et l'indentation
+.partie2{
+  @include decoration;
+  p{
+    text-decoration: underline pink 1.5px;
+  }
+}
+// 3e manière en créant une classe fantôme.
+//création d'une classe qui contient un background
+.fantome{
+  background-color: lightgray;
+  text-decoration: underline pink 1.5px;
+}
+//j'étends la classe .fantome sur la class .corps2
+.corps2{
+@include decoration;
+@extend .fantome;
 }

@@ -1,7 +1,10 @@
-@mixin first {
+//les mixins permet de créer des groupes de déclarations css  qu'on souhaite reutiliser sur l'ensemble de notre code et les variables permet de stocker des informations comme coleur, police.
+//la mixin applique à la class=par_1 une couleur et une décoration.
+@mixin treatmentList {
   color: #3cad85;
   text-decoration: underline;
 }
-li{
-    @include first;
+.par_1{
+  //@include applique les propriétés indiquée dans la @mixin first {
+  @include treatmentList;
 }
