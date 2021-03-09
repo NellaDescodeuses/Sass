@@ -1,0 +1,8 @@
+.exo p{
+  color: navy;
+  font-size: 1.1em;
+  &:hover{
+    text-decoration: underline pink 1.5px;
+    color: rgb(54, 100, 179);
+  }
+}

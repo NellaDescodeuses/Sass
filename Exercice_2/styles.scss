@@ -1,0 +1,27 @@
+// mixin: sert à appliquer plusieurs styles en une ligne
+@mixin first {
+  font-size: 2em;
+  color: #e80000;
+  text-transform: uppercase;
+  font-family: fantasy;
+}
+@mixin second {
+  font-size: 1.5em;
+  color: #eaabe0;
+  font-family: cursive;
+}
+@mixin third {
+  font-size: 1em;
+  color:#79c9f2;
+  font-family: sans-serif;
+  text-decoration: overline;
+}
+h1{
+  @include first;
+}
+p{
+  @include second;
+}
+h3{
+  @include third;
+}

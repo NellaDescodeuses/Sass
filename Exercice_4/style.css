@@ -1,0 +1,11 @@
+.exo, .exo2 {
+  border: solid 2px red;
+  color: navy;
+  font-size: 1.5em;
+}
+
+.exo2 {
+  text-decoration: underline pink 1.5px;
+}
+
+/*# sourceMappingURL=style.css.map */

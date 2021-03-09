@@ -1,0 +1,7 @@
+@mixin first {
+  color: #3cad85;
+  text-decoration: underline;
+}
+li{
+    @include first;
+}

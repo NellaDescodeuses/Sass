@@ -1,0 +1,21 @@
+h1 {
+  font-size: 2em;
+  color: #e80000;
+  text-transform: uppercase;
+  font-family: fantasy;
+}
+
+p {
+  font-size: 1.5em;
+  color: #eaabe0;
+  font-family: cursive;
+}
+
+h3 {
+  font-size: 1em;
+  color: #79c9f2;
+  font-family: sans-serif;
+  text-decoration: overline;
+}
+
+/*# sourceMappingURL=style.css.map */

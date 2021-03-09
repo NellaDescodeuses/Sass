@@ -1,0 +1,11 @@
+.exo{
+  border: solid 2px red;
+  color: navy;
+  font-size: 1.5em;
+}
+.exo2{
+  //@extend ;applique les mêmes propriétés que .exo par extension.
+  @extend .exo;
+  text-decoration:underline pink 1.5px;
+
+}

@@ -1,0 +1,10 @@
+.exo p {
+  color: navy;
+  font-size: 1.1em;
+}
+.exo p:hover {
+  text-decoration: underline pink 1.5px;
+  color: #3664b3;
+}
+
+/*# sourceMappingURL=style.css.map */
